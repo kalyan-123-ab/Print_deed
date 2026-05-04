@@ -8,6 +8,9 @@ python -m pytest
 ## URL
 use this url http://127.0.0.1:8000/docs
 
+# Runcommand
+python -m uvicorn app.main:app --reload 
+
 ## Features
 - Validation service
 - Matching service
